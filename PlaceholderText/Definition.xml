@@ -1,0 +1,306 @@
+
+<Shapes xmlns="http://www.evolus.vn/Namespace/Pencil" 
+xmlns:p="http://www.evolus.vn/Namespace/Pencil" 
+xmlns:svg="http://www.w3.org/2000/svg" 
+xmlns:xlink="http://www.w3.org/1999/xlink" 
+id="vandafc.PlaceholderText" 
+displayName="Placeholder Text" 
+description="Placeholder Text collection" 
+author="Frederic Vandaele (frederic.vandaele@gmail.com)" 
+url="">
+    <Shape id="H1" displayName="Heading1" icon="Icons/text_heading_1.png">
+            <Properties>
+                <PropertyGroup>
+                    <Property name="disabled" displayName="Disabled" type="Bool">false</Property>
+                </PropertyGroup>
+                <PropertyGroup name="Text">
+                    <Property name="label" displayName="Label" type="PlainText">H1 Header Text</Property>
+                    <Property name="textColor" displayName="Color" type="Color">#000000ff</Property>
+                    <Property name="textFont" displayName="Font" type="Font">Arial|bold|normal|22px|none</Property>
+                </PropertyGroup>
+            </Properties>
+
+            <Behaviors>
+                <For ref="text">
+                    <TextContent>$label</TextContent>
+                    <Fill>$textColor</Fill>
+                    <Font>$textFont</Font>
+                    <BoxFit>
+                        <Arg>new Bound(0, 0, 100, 12)</Arg>
+                        <Arg>new Alignment(0, 1)</Arg>
+                    </BoxFit>
+                </For>
+            </Behaviors>
+            <p:Content  xmlns:p="http://www.evolus.vn/Namespace/Pencil"
+                        xmlns="http://www.w3.org/2000/svg">
+                  <text
+                     id="text"
+                     y="9.0077095"
+                     x="17.999992"
+                     style="font-size:12px;font-style:normal;font-weight:normal;text-align:left;text-anchor:start; dominant-baseline: central;fill:#000000;font-family:'Segoe UI'"
+                     xml:space="preserve">checkbutton2</text>
+            </p:Content>
+        </Shape>
+		<Shape id="H2" displayName="Heading2" icon="Icons/text_heading_2.png">
+            <Properties>
+                <PropertyGroup>
+                    <Property name="disabled" displayName="Disabled" type="Bool">false</Property>
+                </PropertyGroup>
+                <PropertyGroup name="Text">
+                    <Property name="label" displayName="Label" type="PlainText">H2 Header Text</Property>
+                    <Property name="textColor" displayName="Color" type="Color">#000000ff</Property>
+                    <Property name="textFont" displayName="Font" type="Font">Arial|bold|normal|20px|none</Property>
+                </PropertyGroup>
+            </Properties>
+
+            <Behaviors>
+                <For ref="text">
+                    <TextContent>$label</TextContent>
+                    <Fill>$textColor</Fill>
+                    <Font>$textFont</Font>
+                    <BoxFit>
+                        <Arg>new Bound(0, 0, 100, 12)</Arg>
+                        <Arg>new Alignment(0, 1)</Arg>
+                    </BoxFit>
+                </For>
+            </Behaviors>
+            <p:Content  xmlns:p="http://www.evolus.vn/Namespace/Pencil"
+                        xmlns="http://www.w3.org/2000/svg">
+                  <text
+                     id="text"
+                     y="9.0077095"
+                     x="17.999992"
+                     style="font-size:12px;font-style:normal;font-weight:normal;text-align:left;text-anchor:start; dominant-baseline: central;fill:#000000;font-family:'Segoe UI'"
+                     xml:space="preserve">checkbutton2</text>
+            </p:Content>
+        </Shape>
+		<Shape id="H3" displayName="Heading3" icon="Icons/text_heading_3.png">
+            <Properties>
+                <PropertyGroup>
+                    <Property name="disabled" displayName="Disabled" type="Bool">false</Property>
+                </PropertyGroup>
+                <PropertyGroup name="Text">
+                    <Property name="label" displayName="Label" type="PlainText">H3 Header Text</Property>
+                    <Property name="textColor" displayName="Color" type="Color">#000000ff</Property>
+                    <Property name="textFont" displayName="Font" type="Font">Arial|bold|normal|18px|none</Property>
+                </PropertyGroup>
+            </Properties>
+
+            <Behaviors>
+                <For ref="text">
+                    <TextContent>$label</TextContent>
+                    <Fill>$textColor</Fill>
+                    <Font>$textFont</Font>
+                    <BoxFit>
+                        <Arg>new Bound(0, 0, 100, 12)</Arg>
+                        <Arg>new Alignment(0, 1)</Arg>
+                    </BoxFit>
+                </For>
+            </Behaviors>
+            <p:Content  xmlns:p="http://www.evolus.vn/Namespace/Pencil"
+                        xmlns="http://www.w3.org/2000/svg">
+                  <text
+                     id="text"
+                     y="9.0077095"
+                     x="17.999992"
+                     style="font-size:12px;font-style:normal;font-weight:normal;text-align:left;text-anchor:start; dominant-baseline: central;fill:#000000;font-family:'Segoe UI'"
+                     xml:space="preserve">checkbutton2</text>
+            </p:Content>
+        </Shape>
+		<Shape id="H4" displayName="Heading4" icon="Icons/text_heading_4.png">
+            <Properties>
+                <PropertyGroup>
+                    <Property name="disabled" displayName="Disabled" type="Bool">false</Property>
+                </PropertyGroup>
+                <PropertyGroup name="Text">
+                    <Property name="label" displayName="Label" type="PlainText">H4 Header Text</Property>
+                    <Property name="textColor" displayName="Color" type="Color">#000000ff</Property>
+                    <Property name="textFont" displayName="Font" type="Font">Arial|bold|normal|16px|none</Property>
+                </PropertyGroup>
+            </Properties>
+
+            <Behaviors>
+                <For ref="text">
+                    <TextContent>$label</TextContent>
+                    <Fill>$textColor</Fill>
+                    <Font>$textFont</Font>
+                    <BoxFit>
+                        <Arg>new Bound(0, 0, 100, 12)</Arg>
+                        <Arg>new Alignment(0, 1)</Arg>
+                    </BoxFit>
+                </For>
+            </Behaviors>
+            <p:Content  xmlns:p="http://www.evolus.vn/Namespace/Pencil"
+                        xmlns="http://www.w3.org/2000/svg">
+                  <text
+                     id="text"
+                     y="9.0077095"
+                     x="17.999992"
+                     style="font-size:12px;font-style:normal;font-weight:normal;text-align:left;text-anchor:start; dominant-baseline: central;fill:#000000;font-family:'Segoe UI'"
+                     xml:space="preserve">checkbutton2</text>
+            </p:Content>
+        </Shape>
+		<Shape id="H5" displayName="Heading5" icon="Icons/text_heading_5.png">
+            <Properties>
+                <PropertyGroup>
+                    <Property name="disabled" displayName="Disabled" type="Bool">false</Property>
+                </PropertyGroup>
+                <PropertyGroup name="Text">
+                    <Property name="label" displayName="Label" type="PlainText">H5 Header Text</Property>
+                    <Property name="textColor" displayName="Color" type="Color">#000000ff</Property>
+                    <Property name="textFont" displayName="Font" type="Font">Arial|bold|normal|14px|none</Property>
+                </PropertyGroup>
+            </Properties>
+
+            <Behaviors>
+                <For ref="text">
+                    <TextContent>$label</TextContent>
+                    <Fill>$textColor</Fill>
+                    <Font>$textFont</Font>
+                    <BoxFit>
+                        <Arg>new Bound(0, 0, 100, 12)</Arg>
+                        <Arg>new Alignment(0, 1)</Arg>
+                    </BoxFit>
+                </For>
+            </Behaviors>
+            <p:Content  xmlns:p="http://www.evolus.vn/Namespace/Pencil"
+                        xmlns="http://www.w3.org/2000/svg">
+                  <text
+                     id="text"
+                     y="9.0077095"
+                     x="17.999992"
+                     style="font-size:12px;font-style:normal;font-weight:normal;text-align:left;text-anchor:start; dominant-baseline: central;fill:#000000;font-family:'Segoe UI'"
+                     xml:space="preserve">checkbutton2</text>
+            </p:Content>
+        </Shape>
+		<Shape id="H6" displayName="Heading6" icon="Icons/text_heading_6.png">
+            <Properties>
+                <PropertyGroup>
+                    <Property name="disabled" displayName="Disabled" type="Bool">false</Property>
+                </PropertyGroup>
+                <PropertyGroup name="Text">
+                    <Property name="label" displayName="Label" type="PlainText">H6 Header Text</Property>
+                    <Property name="textColor" displayName="Color" type="Color">#000000ff</Property>
+                    <Property name="textFont" displayName="Font" type="Font">Arial|bold|normal|12px|none</Property>
+                </PropertyGroup>
+            </Properties>
+
+            <Behaviors>
+                <For ref="text">
+                    <TextContent>$label</TextContent>
+                    <Fill>$textColor</Fill>
+                    <Font>$textFont</Font>
+                    <BoxFit>
+                        <Arg>new Bound(0, 0, 100, 12)</Arg>
+                        <Arg>new Alignment(0, 1)</Arg>
+                    </BoxFit>
+                </For>
+            </Behaviors>
+            <p:Content  xmlns:p="http://www.evolus.vn/Namespace/Pencil"
+                        xmlns="http://www.w3.org/2000/svg">
+                  <text
+                     id="text"
+                     y="9.0077095"
+                     x="17.999992"
+                     style="font-size:12px;font-style:normal;font-weight:normal;text-align:left;text-anchor:start; dominant-baseline: central;fill:#000000;font-family:'Segoe UI'"
+                     xml:space="preserve">checkbutton2</text>
+            </p:Content>
+        </Shape>
+		<Shape id="paragraphs" displayName="Paragraphs" icon="Icons/text_align_left.png">
+                <Properties>
+                        <PropertyGroup>
+                            <Property name="width" displayName="Width" type="Handle" p:lockY="true" p:minX="0">300,0</Property>
+                        </PropertyGroup>
+                        <PropertyGroup name="Text">
+                            <Property name="textContent" displayName="Text Content" type="RichText">
+							&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.&lt;/p&gt;
+
+&lt;p&gt;Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.&lt;/p&gt;
+
+&lt;p&gt;Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.&lt;/p&gt;
+
+&lt;p&gt;Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.&lt;/p&gt;
+
+&lt;p&gt;Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.&lt;/p&gt;
+
+&lt;p&gt;Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.&lt;/p&gt;
+
+&lt;p&gt;Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem. Suspendisse commodo ullamcorper magna.&lt;/p&gt;
+</Property>
+                            <Property name="textFont" displayName="Default Font" type="Font">Arial|normal|normal|11px</Property>
+                            <Property name="textColor" displayName="Default Text Color" type="Color">#000000ff</Property>
+                        </PropertyGroup>
+                </Properties>
+
+                <Behaviors>
+                    <For ref="text">
+                        <TextContent>$textContent</TextContent>
+                        <Font>$textFont</Font>
+                        <Color>$textColor</Color>
+                        <RichTextFit>$width.x</RichTextFit>
+                    </For>
+                </Behaviors>
+
+                <p:Content    xmlns:p="http://www.evolus.vn/Namespace/Pencil"
+                                        xmlns="http://www.w3.org/2000/svg">
+
+                    <foreignObject x="0" y="0" width="200" height="150" id="text">
+                        <div xmlns="http://www.w3.org/1999/xhtml">
+                            Rich <strong>text</strong> pane contains <a href="#">hyper text</a>
+                        </div>
+                    </foreignObject>
+                </p:Content>
+        </Shape>
+			<Shape id="shortlist" displayName="Short List" icon="Icons/text_list_bullets.png">
+                <Properties>
+                        <PropertyGroup>
+                            <Property name="width" displayName="Width" type="Handle" p:lockY="true" p:minX="0">250,0</Property>
+                        </PropertyGroup>
+                        <PropertyGroup name="Text">
+                            <Property name="textContent" displayName="Text Content" type="RichText">
+							&lt;ul&gt;
+							&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+							&lt;li>Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+							&lt;li>Vestibulum auctor dapibus neque.&lt;/li&gt;
+							&lt;li>Nunc dignissim risus id metus.&lt;/li&gt;
+							&lt;li>Cras ornare tristique elit.&lt;/li&gt;
+							&lt;li>Vivamus vestibulum nulla nec ante.&lt;/li&gt;
+							&lt;li>Praesent placerat risus quis eros.&lt;/li&gt;
+							&lt;li>Fusce pellentesque suscipit nibh.&lt;/li&gt;
+							&lt;li>Integer vitae libero ac risus egestas placerat.&lt;/li&gt;
+							&lt;li>Vestibulum commodo felis quis tortor.&lt;/li&gt;
+							&lt;li>Ut aliquam sollicitudin leo.&lt;/li&gt;
+							&lt;li>Cras iaculis ultricies nulla.&lt;/li&gt;
+							&lt;li>Donec quis dui at dolor tempor interdum.&lt;/li&gt;
+							&lt;li>Vivamus molestie gravida turpis.&lt;/li&gt;
+							&lt;li>Fusce lobortis lorem at ipsum semper sagittis.&lt;/li&gt;
+							&lt;li>Nam convallis pellentesque nisl.&lt;/li&gt;
+							&lt;li>Integer malesuada commodo nulla.&lt;/li&gt;
+							&lt;/ul&gt;
+							</Property>
+                            <Property name="textFont" displayName="Default Font" type="Font">Arial|normal|normal|11px</Property>
+                            <Property name="textColor" displayName="Default Text Color" type="Color">#000000ff</Property>
+                        </PropertyGroup>
+                </Properties>
+
+                <Behaviors>
+                    <For ref="text">
+                        <TextContent>$textContent</TextContent>
+                        <Font>$textFont</Font>
+                        <Color>$textColor</Color>
+                        <RichTextFit>$width.x</RichTextFit>
+                    </For>
+                </Behaviors>
+
+                <p:Content    xmlns:p="http://www.evolus.vn/Namespace/Pencil"
+                                        xmlns="http://www.w3.org/2000/svg">
+
+                    <foreignObject x="0" y="0" width="200" height="150" id="text">
+                        <div xmlns="http://www.w3.org/1999/xhtml">
+                            Rich <strong>text</strong> pane contains <a href="#">hyper text</a>
+                        </div>
+                    </foreignObject>
+                </p:Content>
+        </Shape>
+</Shapes>
+
